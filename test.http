@@ -1,0 +1,21 @@
+### 1. The Empty State 
+GET http://localhost:3000/users
+
+### 2. The Healthy Organism 
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Faizan",
+  "email": "Faizan@decodelabs.tech",
+  "role": "Security Analyst"
+}
+
+### 3. The Pathogen 
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "FM",
+  "role": "Database Admin"
+}
